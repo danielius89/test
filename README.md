@@ -13,7 +13,7 @@ https://git-scm.com/downloads
   cd test
 ## Pagrindinės komandos
 
-    - **git add** -> failų paruošimas patvirtinimui
+- **git add** -> failų paruošimas patvirtinimui
         - **git add <failo-pavadinimas>** -> prideda failą nurodytu pavadinimu
         - **git add** -> Prideda visus pakitusius failus
 

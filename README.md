@@ -1,8 +1,8 @@
 # Mano pirmoji GIT repozitorija
 
 ## Repozitorijos parsiuntimas
-    got clone <repozitorijos-nuoroda
-    >
+    got clone <repozitorijos-nuoroda>
+    
 ## Pagrindinės komandos
 git add -> failų paruošimas patvirtinimui
     git add <failo-pavadinimas> --> prideda failą nurodytu pavadinimu

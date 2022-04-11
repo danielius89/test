@@ -1,24 +1,31 @@
 # Mano pirmoji GIT repozitorija
 
+Ši repozitorija skirta tam, kad išmokti naudotis **projektų versijavimo kontrolės komandinės eilutės sąsaja - GIT CLI**. Tam jums reikės parsisiųsti ir įsirašyti:
+https://git-scm.com/downloads
+
 ## Repozitorijos parsiuntimas
-    got clone <repozitorijos-nuoroda>
-    
+
+1. Atsidarykite GIT CLI (GIT bash).
+2. Naudodami komandą <cd> pakeiskite savo darbinę kategoriją į tą, kurioje norite parsiųsti repozitoriją
+3. Parsiųskite repozitoriją:
+  git clone https://github.com/ZilvinasVidmantas/test
+4. Pakeiskite darbinę kategoriją į parsiųstos repozitorijos kategoriją
+  cd test
 ## Pagrindinės komandos
-git add -> failų paruošimas patvirtinimui
-    git add <failo-pavadinimas> --> prideda failą nurodytu pavadinimu
-    git add . --> prideda visus pakitusius failus (dažniausiai bus naudojamas)
-    
-git diff -> skirtumas tarp dviejų failų, ar dviejų to paties failo versijų
-    git diff <failo-pavadinimas> --> failo nurodytu pavadinimu pakitimai nuo paskutinio commit'o 
+    - **git add** -> failų paruošimas patvirtinimui
+        - **git add <failo-pavadinimas>** -> prideda failą nurodytu pavadinimu
+        - **git add** -> Prideda visus pakitusius failus
 
-git status -> parodo pakitusių failų būseną 
+    - **git diff** -> skirtumas tarp dviejų failų, ar dviejų to paties failo versijų
+        - **git diff <failo-pavadinimas>** ->  failo nurodytu pavadinimu pakitimai nuo paskutinio commit'o
 
-git branch -> komanda, kuri naudojama operacijomis su šakomis
-    git branch - a --> Parodo visas parsiųstas šakas ir šiuo metu aktyvią šaką
+    - **git status** -> parodo pakitusių failų būseną
 
-git commit -> komanda skirta užtvirtinti projekto pakitimui
-    git commit -m "žinutė apibūdinanti pakitimą"
+    - **git branch** -> komanda, kuri naudoja operacios su šakomis
+        - **git branch** -a -> parodo visas parsiųstas šakas ir šiuo metu aktyvią šaką
 
-git push -> komanda skirta paviešinti commit į atitinkamą globalią šaką
+    - **git commit** -> komanda skirta užtvirti projekto pakitimui
+        - **git commit** -m "Žinutė apibūdinanti pakitimą"
 
+    - **git push** -> komanda skirta paviešinti commit'us į atitinkamą globalią šaką
 
